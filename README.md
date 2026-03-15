@@ -65,7 +65,7 @@ jobs:
 | `google-api-key` | Google API key for Gemini | *required* |
 | `github-token` | GitHub token for PR access | *required* |
 | `gemini-model` | Model for scanning | `gemini-3.1-pro-preview` |
-| `validator-model` | Model for validation | `gemini-3-flash-preview` |
+| `validator-model` | Model for validation | `gemini-3.1-flash-preview` |
 | `autofix-model` | Model for generating autofixes | `gemini-3.1-pro-preview` |
 | `comment-pr` | Post findings as PR comments | `true` |
 | `upload-results` | Upload results as artifact | `true` |
@@ -291,7 +291,7 @@ GITHUB_EVENT_PATH="./event.json" \
 | Variable | Description | Default |
 |----------|-------------|---------|
 | `INPUT_GEMINI-MODEL` | Gemini model for scanning | `gemini-3.1-pro-preview` |
-| `INPUT_VALIDATOR-MODEL` | Gemini model for validation | `gemini-3-flash-preview` |
+| `INPUT_VALIDATOR-MODEL` | Gemini model for validation | `gemini-3.1-flash-preview` |
 | `INPUT_AUTOFIX-MODEL` | Gemini model for generating autofixes | `gemini-3.1-pro-preview` |
 | `INPUT_COMMENT-PR` | Post findings as PR review comments | `true` |
 | `INPUT_ENABLE-LLM-FILTERING` | Use a second LLM pass to validate findings | `true` |
